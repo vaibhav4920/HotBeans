@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #00aeff8e;
+    color:rgb(255, 255, 255)f;
+    padding: 10px 0;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.search-bar {
+    margin-bottom: 20px;
+}
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid rgba(204, 204, 204, 0);
+    border-radius: 5px;
+}
+.search-bar input[type="submit"] {
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.staff-profile {
+    background: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+.staff-profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+footer {
+    background: #00a2ff8e;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.job-listing {
+    background: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.event-listing {
+    background: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.contact-info, .support-resources {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: 10px 0 5px;
+}
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: #555;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+ 
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+ 
+nav ul li a:hover {
+    color: #ffcc00;
+}
+ 
